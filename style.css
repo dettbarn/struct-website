@@ -23,6 +23,18 @@ ul {
 
 #navigation li {
   display: inline;
+  padding: 1em;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+/*  max-width: 300px;*/
+  height: auto;
+  margin: auto;
+}
+
+#navigation li a {
+  text-decoration: none;
+  background-color: inherit;
+  color: #000000;
 }
 
 a {
