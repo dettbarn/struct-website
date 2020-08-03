@@ -6,7 +6,7 @@ $(function() {
     
     // for current page set navigation li to active	
     $("#navigation ul li a").each(function() {
-        if (url == (this.href) || url + "index.html" == (this.href)) {
+        if (url == (this.href) || url + "index.html" == (this.href) || url + "/index.html" == (this.href)) {
             $(this).closest("li").addClass("active");
         }
     });
