@@ -21,7 +21,7 @@ ul {
   padding: 0px;
 }
 
-#navigation li {
+nav li {
   display: inline;
   padding: 1em;
   background-color: #cccccc;
@@ -31,12 +31,12 @@ ul {
   margin: auto;
 }
 
-#navigation li.active {
+nav li.active {
 	background-color: #999999;
 	border-color: #999999
 }
 
-#navigation li a {
+nav li a {
   text-decoration: none;
   background-color: inherit;
   color: #000000;
