@@ -37,8 +37,17 @@ nav li a {
 }
 
 nav li a.active {
-	background-color: #999999;
-	border-color: #999999
+	background-color: #888888;
+	border-color: #888888;
+}
+
+h1:hover {
+	color: #aaaaaa;
+}
+
+nav li a:hover {
+	background-color: #aaaaaa;
+	border-color: #aaaaaa;
 }
 
 a {
