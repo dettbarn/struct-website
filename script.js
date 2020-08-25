@@ -7,7 +7,7 @@ $(function() {
     // for current page set navigation li to active	
     $("nav ul li a").each(function() {
         if (url == (this.href) || url + "index.html" == (this.href) || url + "/index.html" == (this.href)) {
-            $(this).closest("li").addClass("active");
+            $(this).addClass("active");
         }
     });
 });
